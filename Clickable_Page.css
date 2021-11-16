@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+/*LOGO*/
+h1{
+    display: inline-flex;
+    justify-content: left;
+    font-size: 500%;
+    font-family: 'Inconsolata', Georgia, 'Times New Roman';
+    color: white;
+    text-shadow: 1px 1px 2px white, 0 0 25px pink, 0 0 5px white;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    margin: 0px;
+    padding-top: 20px;
+}
+h1 a{
+  text-decoration: none;
+}
+h1 a:visited{
+  color: white;
+}
+
+/*NAVBAR*/
+.navBar {
+    display: inline-block;
+    vertical-align: top;
+    flex-wrap: wrap;
+    justify-content: margin;
+    overflow: hidden;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.navBar a {
+   color: white;
+   display: inline-block;
+   padding: 0 50px 0 60px;
+   text-align: center;
+   justify-content: space-between;
+   font-family: 'Inconsolata', Georgia, 'Times New Roman';
+   font-size: 25px;
+}
+.navBar a{
+   text-decoration: none;
+}
+.navBar a:hover{
+   color: #D5A6C1;
+   text-decoration: none;
+   text-shadow: 1px 0px 1px white, 0 0 25px #D5A6C1, 0 0 5px white;
+}
+.navBar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  float: left;
+  overflow: hidden;
+  list-style-type: none;
+}
+.navBar li{
+  float: left;
+}
+
+body{
+  background-image: url("bgimage6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right top;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+    text-decoration: none;
+    color: #DB71A0;
+}
+
+/*CONTENT*/
+h2{
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+h2 a{
+  text-decoration: none;
+  color: black;
+}
+h2 a:hover{
+  color: pink;
+}
+h2 a:visited{
+  color: #FADBD8;
+}
+.content{
+  display: flex;
+}
+
+h3{
+  color: pink;
+  font-size: 30px;
+}
+
+.leftside{
+  padding: 50px 80px;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+.row2{
+  display: flex;
+  justify-content: left;
+}
+.row2 img{
+  padding: 3px;
+}
+
+.rightside{
+  padding: 0px 100px;
+  margin-bottom: 50px;
+  display: inline-block;
+  position: fixed;
+  left: 1000px;
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+}
+.rightside button{
+  font-size: 20px;
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+  background-color: pink;
+  border-style: dotted;
+}
+.rightside button:hover{
+  font-weight: bolder;
+}
+option{
+  background-color: pink;
+}
+
+
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100px;
+  background-color: #F6AEC1;
+  background-size: 150%;
+  border-radius: 25px;
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+  padding: 20px 0px;
+}
+footer img{
+  max-height: 100%;
+  max-width: 100%;
+  width: 500px;
+  padding: 0px 60px;
+}
+footer th, td{
+  padding: 10px 90px 10px 90px;
+}
+footer th{
+  text-decoration: underline;
+  text-align: left;
+  font-size: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer a:link{
+  text-decoration: none;
+}
+footer a:hover{
+  color: #FF5684;
+}

@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body{
+  background-image: url("bgimage6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right top;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*LOGO*/
+h1{
+    display: inline-flex;
+    justify-content: left;
+    font-size: 500%;
+    font-family: 'Inconsolata', Georgia, 'Times New Roman';
+    color: white;
+    text-shadow: 1px 1px 2px white, 0 0 25px pink, 0 0 5px white;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    margin: 0px;
+    padding-top: 20px;
+}
+h1 a{
+  text-decoration: none;
+}
+h1 a:visited{
+  color: white;
+}
+
+/*NAVBAR*/
+.navBar {
+    display: inline-block;
+    vertical-align: top;
+    flex-wrap: wrap;
+    justify-content: margin;
+    overflow: hidden;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.navBar a {
+   color: white;
+   display: inline-block;
+   padding: 0 50px 0 60px;
+   text-align: center;
+   justify-content: space-between;
+   font-family: 'Inconsolata', Georgia, 'Times New Roman';
+   font-size: 25px;
+}
+.navBar a{
+   text-decoration: none;
+}
+.navBar a:hover{
+   color: #D5A6C1;
+   text-decoration: none;
+   text-shadow: 1px 0px 1px white, 0 0 25px #D5A6C1, 0 0 5px white;
+}
+.navBar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  float: left;
+  overflow: hidden;
+  list-style-type: none;
+}
+.navBar li{
+  float: left;
+}
+
+a:hover{
+    opacity: 0.8;
+    text-decoration: none;
+    color: #DB71A0;
+}
+
+/*MARQUEE*/
+.announcement{
+  margin-top: 50px;
+  font-family: 'VT323', Georgia, 'Times New Roman';
+  font-size: 30px;
+  color: #EDD4DB;
+  border-style: dotted;
+  background-color: #efa3a9;
+}
+
+/*CONTENT*/
+h2{
+  font-family: 'Dancing Script', Georgia, 'Times New Roman';
+  color: white;
+  font-weight: lighter;
+  font-size: 50px;
+  display: flex;
+  justify-content: left;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.row1{
+  margin: 20px;
+  padding: 0px 70px 0px 70px;
+  display: flex;
+  justify-content: center;
+}
+.row1 a{
+  text-decoration: none;
+  color: black;
+}
+.row1 a:visited{
+  color: pink;
+}
+.row1 img{
+  padding: 0px 60px;
+}
+.row1 img:hover{
+  opacity: 0.8;
+}
+.row1 figcaption{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+}
+
+.row2{
+  margin: 20px;
+  padding: 50px 70px 0px 70px;
+  display: flex;
+  justify-content: center;
+}
+.row2 img{
+  padding: 0px 60px;
+}
+.row2 img:hover{
+  opacity: 0.8;
+}
+.row2 figcaption{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+}
+
+
+/*FOOTER*/
+footer{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100px;
+  background-color: #E6B0AA;
+  background-size: 150%;
+  border-radius: 25px;
+  font-family: 'Inconsolata', Georgia, 'Times New Roman';
+  padding: 20px 0px;
+}
+footer img{
+  max-height: 100%;
+  max-width: 100%;
+  width: 500px;
+  padding: 0px 60px;
+}
+footer th, td{
+  padding: 10px 90px 10px 90px;
+}
+footer th{
+  text-decoration: underline;
+  text-align: left;
+  font-size: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer a:link{
+  text-decoration: none;
+}
+footer a:hover{
+  color: #FF5684;
+}
